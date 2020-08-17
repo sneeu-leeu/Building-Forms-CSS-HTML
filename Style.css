@@ -51,5 +51,25 @@ fieldset{
 .subHeading {
     text-align: center;
 }
+.email{
+    display: flex;
+    flex-direction: column;
+}
+.phone {
+    display: flex;
+    flex-direction: column;
+}
+.password {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    border-radius: 1px;
+    font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 15px 8px 45px 8px;
+}
+label {
+    margin-left: 8px ;
+}
 
 
