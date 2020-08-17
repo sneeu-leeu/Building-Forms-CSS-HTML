@@ -23,26 +23,25 @@
 
 }
 .logo-image{
-    width: 100%;
-    padding-left: 14em;
+    
+    padding-left: 25em;
 }
 
 img {
-    width: 60%;
+    width: 45%;
     background-color:red;
     
     
 }
 
-.full-form{
+fieldset{
     display:flex;
     flex-direction: column;
     align-items: center;
-    
-    border:2px;
-    border-color: black;
-    border-radius: 10%;
-    background-color: lightslategray;
+    width:30%;
+    margin-left: 35.5%;
+    border-color:25px black;
+    background-color:white;
     
     
 }
