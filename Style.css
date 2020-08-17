@@ -5,14 +5,32 @@
     display: flex;
     padding-left: 55em;
     justify-content: center;
+    width: 100%;
 }
 .logo-icon {
-    padding-left:0.5em ; 
+    padding-left: 0.5rem;
+    width: 25%;
+    
 }
 .signInBtn {
     height: 2rem;
-    background-color: blue;    
+    background-color: blue;
+    border-radius: 10%; 
+    width: 100%;   
 }
 .btn-text {
     color: white;
+}
+.full-form{
+    align-items: center;
+    padding: 10em 10em 5em 30em;
+    border:2px;
+    border-color: black;
+    border-radius: 10%;
+    
+    
+}
+.heading{
+    text-align: center;
+    color: grey;
 }
