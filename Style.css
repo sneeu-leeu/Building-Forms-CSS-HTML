@@ -1,0 +1,18 @@
+.navb {
+    display: flex;
+}
+.sign-in {
+    display: flex;
+    padding-left: 55em;
+    justify-content: center;
+}
+.logo-icon {
+    padding-left:0.5em ; 
+}
+.signInBtn {
+    height: 2rem;
+    background-color: blue;    
+}
+.btn-text {
+    color: white;
+}
