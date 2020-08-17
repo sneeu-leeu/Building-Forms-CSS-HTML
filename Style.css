@@ -3,7 +3,7 @@
 }
 .sign-in {
     display: flex;
-    padding-left: 55em;
+    padding-left: 50em;
     justify-content: center;
     width: 100%;
 }
@@ -13,7 +13,7 @@
     
 }
 .signInBtn {
-    height: 2rem;
+    height: 2.5em;
     background-color: blue;
     border-radius: 10%; 
     width: 100%;   
@@ -22,15 +22,22 @@
     color: white;
 }
 .full-form{
+    display: inline-block;
     align-items: center;
     padding: 10em 10em 5em 30em;
     border:2px;
     border-color: black;
     border-radius: 10%;
+    background-color: lightslategray;
     
     
 }
-.heading{
-    text-align: center;
-    color: grey;
+img{
+    width:100%;
+    } 
+
+
+.heading {
+    width: 450px;
+    background-color: lightblue;
 }
