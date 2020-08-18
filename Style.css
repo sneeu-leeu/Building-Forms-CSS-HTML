@@ -33,7 +33,7 @@ body{
 }
 
 .logo-images{
-    padding-left: 10%;
+    padding<body>-left: 10%;
     display:flex;
     flex-direction: column;
 }
@@ -75,7 +75,7 @@ input {
     margin: 15px 8px 45px 8px;
 }
 input:active,
-input:focus {
+input:focu<body>s {
 
     border-color: grey;
     box-shadow:  0 0 20px rgba(8, 129, 221, 0.74);
@@ -150,7 +150,7 @@ label {
     
 }
 .agreements{
-    background-color: grey;
+    
     text-align:center;
 }
 #terms {
@@ -160,13 +160,13 @@ label {
     margin-bottom: 2em;
 }
 
-#captcha {
+.captcha {
     text-align: center;
     font-size: 11px;
     background: #ddd;
     position: relative;
     bottom: 0;
-    width: 33.3em;
+    width: 38em;
     padding: 20px 0;
     margin-left: -23px;
 }

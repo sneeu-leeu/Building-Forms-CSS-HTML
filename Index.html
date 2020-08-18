@@ -3,17 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="Style.css">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML-CSS-forms</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <script src="https://kit.fontawesome.com/5036f34c07.js" crossorigin="anonymous"></script> 
+    .ul-footer {  <script src="https://kit.fontawesome.com/5036f34c07.js" crossorigin="anonymous"></script> 
 </head>
-<header>
-    <nav class="navb">
-        <div class="sign-in">
-            <div class="text">
+
+<body>
+
+    <header>
+        <nav class="navb">
+            <div class="sign-in">
+                <div class="text">
                 <small>Already have an Intuit account?</small> </br>
                 <small style="color: blue">I forgot my User ID or Password</small>
             </div>
@@ -22,8 +20,10 @@
                     <i class="fas fa-lock" style="color: white"></i> <strong class="btn-text">Sign In</strong>
                 </button>
             </div>
-        </div>
-    </nav>
+            </div>
+        </nav>
+    </header>
+
     <section class="logo-images">
         <figure class="logo-top">
             <img src="intuit-logo.png" href="Intuit Logo" class="intuit-logo">
@@ -36,7 +36,8 @@
                 </div>
         </figure>
     </section>
-   <fieldset class="full-form">
+
+    <fieldset class="full-form">
         <form class="form-elements">
             <div class="formHeading">
                 <h2>Create an Intuit account</h2>
@@ -48,7 +49,7 @@
             </br>
                 <small>Already have an account?</small><small style="color: blue;"> Sign In</small>
             </div>
-        </br>
+            </br>
             <div class="inputs" >
                 <div class="email">
                     <label for="email-input">Email address</label>
@@ -63,7 +64,9 @@
                     <label for="password-input">Password</label>
                     <input type="password" id="password-input" name="password" required>
                 </div>  
-                <button type="submit"><i class="fas fa-lock"></i> Create Account</button>  
+                <div class="subBtn">
+                    <button type="submit"><i class="fas fa-lock"></i> Create Account</button>  
+                </div>
             </div>
             
             <footer class="sign-up-footer">
@@ -72,19 +75,19 @@
                     <a href="#privacy">Privacy Statement</a>.
                 </p>
                 <p class="captcha">Invisible reCAPTCHA by Google 
-                    <a href="#privacy-policy">Privacy Policy</a>and 
+                    <a href="#privacy-policy">Privacy Policy</a>and
                     <a href="#terms">Terms of Use</a>.
                 </p>
             </footer>
-            
-                
+ 
         </form>
        
                 
 
-   </fieldset>
-    
+    </fieldset>
+  
 </body>
+
 <footer class="footer-element">
     <ul class="ul-footer">
         <li>Legal</li>
@@ -92,10 +95,10 @@
         <li>Security</li>
     </ul>
     <p class="footer-paragraph">
-    Legal Privacy Security
-© 2020 Intuit, Inc. All rights reserved. Intuit, 
-QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br/>
-Terms and conditions, features, support, pricing, and service options 
-subject to change without notice.</p>
+        Legal Privacy Security
+        © 2020 Intuit, Inc. All rights reserved. Intuit, 
+        QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br/>
+        Terms and conditions, features, support, pricing, and service options 
+        subject to change without notice.</p>
 </footer>
 </html>
