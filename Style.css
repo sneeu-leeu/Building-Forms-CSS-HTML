@@ -43,7 +43,13 @@ fieldset{
     border-color:25px black;
     background-color:white; 
     margin-bottom: 10em;
+    font-family: Avenir;
     
+}
+input {
+    border : 1px solid black; 
+    box-sizing: border-box;
+    padding: 8px ;
 }
 
 footer{
