@@ -26,7 +26,7 @@ body{
     color: white;
 }
 .logo-top {
-    padding-left: 40%;
+    padding-left: 38%;
 }
 .intuit-logo {
     width: 19%;   
@@ -40,7 +40,7 @@ body{
 .logo-bottom-allthree{
     width:70%;
     
-    display:flex;
+    display:flex;-left
     flex-direction: row;
 }
 .three-logos{
@@ -141,34 +141,27 @@ form button {
 label {
     margin-left: 8px ;
 }
-.recaptcha{
-    font-size: smaller;
-    background-color: grey;
-    width: 100%;
-    margin-top: 5%;
-    justify-content: space-around;
-    
-}
 .agreements{
-    
+
     text-align:center;
 }
-#terms {
-    font-size: 12px;
-    font-style: italic;
-    text-align: center;
-    margin-bottom: 2em;
+.grey-background {
+    
+    background-color: grey;
+    margin: -13px;
+    padding-bottom: -1px;
+    margin-top: -2px;
 }
 
 .captcha {
     text-align: center;
     font-size: 11px;
-    background: #ddd;
+    
     position: relative;
     bottom: 0;
     width: 38em;
     padding: 20px 0;
-    margin-left: -23px;
+    margin-left: -12px;
 }
 
 
