@@ -39,7 +39,7 @@ fieldset{
     flex-direction: column;
     align-items: center;
     width:30%;
-    margin-left: 35.5%;
+    margin-left: 35%;
     border-color:25px black;
     background-color:white; 
     margin-bottom: 10em;
@@ -84,6 +84,32 @@ li{
 }
 .footer-paragraph{
     text-align: center;
+}
+.formHeading {
+    margin-left: 12%;
+}
+.subHeading {
+    text-align: center;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+}
+.phone {
+    display: flex;
+    flex-direction: column;
+}
+.password {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    border-radius: 1px;
+    font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 15px 8px 45px 8px;
+}
+label {
+    margin-left: 8px ;
 }
 
 
