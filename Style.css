@@ -24,19 +24,32 @@ body{
 }
 .btn-text {
     color: white;
-
 }
-.logo-image{
-    background-color:lightgray;
-    padding-left: 25em;
+.logo-top {
+    padding-left: 45%;
 }
-
-img {
-    width: 52%;
-    opacity:0.6;
-    z-index: 0;
+.logo1 {
+    width: 19%;
     
+
 }
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none ;
+    padding-left: 33%;
+}
+li {
+    width : 5%;
+    padding : 0;
+    margin: 0;
+}
+.li-images img {
+    padding: 0;
+    margin: 0;
+    width: 20%;
+}
+
 
 fieldset{
     display:flex;
