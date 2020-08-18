@@ -40,18 +40,26 @@ fieldset{
     align-items: center;
     width:30%;
     margin-left: 35%;
-    border-color:25px black;
+   
     background-color:white; 
     margin-bottom: 10em;
     font-family: Avenir;
     
 }
 input {
-    border : 1px solid black; 
+    border : 1px solid #C1C5C8; 
     box-sizing: border-box;
     padding: 8px ;
+    border-radius: 1px;
+    font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 15px 8px 45px 8px;
 }
-
+input:active,
+input:focus {
+    border: 1px solid #52A8EC;
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: 0 1px 1px inset, 0 0 8px rgba(82, 168, 236, 0.6);
+}
 footer{
     
     box-sizing: border-box;
@@ -60,21 +68,8 @@ footer{
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial sans-serif;
     font-size: smaller;
 }
-/*
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
 
-}
-*/
-
-.ul-footer{
-    
+.ul-footer {
     display:flex;
     flex-direction: row;
     list-style: none;
@@ -109,11 +104,7 @@ li{
     display: flex;
     flex-direction: column;
 }
-input {
-    border-radius: 1px;
-    font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 15px 8px 45px 8px;
-}
+
 label {
     margin-left: 8px ;
 }
