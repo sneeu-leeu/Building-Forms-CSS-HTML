@@ -14,7 +14,7 @@ This is a readme file for our second project at Microverse. We cloned a Mint.com
 
 ## Authors
 ---
-#### Debyendu Das
+#### Dibyendu Das
 * Github:[@DibDas](https://github.com/dibdas)
 * Twitter:[@DIBYEND78120480]
 * LinkedIn:[Dibyendu Das](https://www.linkedin.com/in/dibyendu-das-b5967a1b1/)

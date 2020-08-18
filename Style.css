@@ -48,17 +48,39 @@ fieldset{
 
 footer{
     
-    display: flex;
-    background-color: grey;
+    box-sizing: border-box;
+    
     flex-direction:column;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial sans-serif;
+    font-size: smaller;
 }
+/*
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+
+}
+*/
+
 .ul-footer{
-    align-items: center;
+    
     display:flex;
     flex-direction: row;
     list-style: none;
-    
+    text-align: center; 
+    padding-left: 45%; 
+}
 
+li{
+    display: inline;
+    align-items: center;
+    align-items: center;
+    padding-left: 0.7em;
 }
 .footer-paragraph{
     text-align: center;
