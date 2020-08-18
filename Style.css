@@ -1,3 +1,7 @@
+body{
+    background-color:lightgray;
+    z-index: 1;
+}
 .navb {
     display: flex;
 }
@@ -23,14 +27,14 @@
 
 }
 .logo-image{
-    
+    background-color:lightgray;
     padding-left: 25em;
 }
 
 img {
-    width: 45%;
-    background-color:red;
-    
+    width: 52%;
+    opacity:0.6;
+    z-index: 0;
     
 }
 
@@ -40,12 +44,26 @@ fieldset{
     align-items: center;
     width:30%;
     margin-left: 35%;
-    border-color:25px black;
+   
     background-color:white; 
     margin-bottom: 10em;
+    font-family: Avenir;
     
 }
+input {
+    border : 1px solid #C1C5C8; 
+    box-sizing: border-box;
+    padding: 8px ;
+    border-radius: 1px;
+    font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 15px 8px 45px 8px;
+}
+input:active,
+input:focus {
 
+    border-color: grey;
+    box-shadow:  0 0 20px rgba(8, 129, 221, 0.74);
+}
 footer{
     
     box-sizing: border-box;
@@ -54,21 +72,8 @@ footer{
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial sans-serif;
     font-size: smaller;
 }
-/*
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
 
-}
-*/
-
-.ul-footer{
-    
+.ul-footer {
     display:flex;
     flex-direction: row;
     list-style: none;
@@ -103,13 +108,20 @@ li{
     display: flex;
     flex-direction: column;
 }
-input {
-    border-radius: 1px;
-    font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 15px 8px 45px 8px;
-}
+
 label {
     margin-left: 8px ;
+}
+.recaptcha{
+    font-size: smaller;
+    background-color: grey;
+    width: 100%;
+    margin-top: 5%;
+    justify-content: space-around;
+    
+}
+.footer-paragraph{
+    background-color: grey;
 }
 
 
