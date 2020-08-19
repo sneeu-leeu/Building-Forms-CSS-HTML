@@ -5,7 +5,7 @@ This is a readme file for our second project at Microverse. We cloned a Mint.com
 
 ## Live Demo
 ---
-[Mint.com Clone]("https://unruffled-brattain-202c0f.netlify.app/")
+[Mint.com Clone](https://unruffled-brattain-202c0f.netlify.app/)
 
 ## Built With
 ---
