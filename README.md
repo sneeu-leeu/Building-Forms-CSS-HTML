@@ -5,7 +5,7 @@ This is a readme file for our second project at Microverse. We cloned a Mint.com
 
 ## Live Demo
 ---
-[Mint.com Clone]("Project Two")
+[Mint.com Clone]("https://unruffled-brattain-202c0f.netlify.app/")
 
 ## Built With
 ---
@@ -28,4 +28,4 @@ This is a readme file for our second project at Microverse. We cloned a Mint.com
 ---
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [Issue](https://github.com/sneeu-leeu/Building-Forms-CSS-HTML/issues/) and help me improve!
+Feel free to check the [Issue](https://github.com/sneeu-leeu/Building-Forms-CSS-HTML/issues/2) and help me improve!
