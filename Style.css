@@ -146,22 +146,16 @@ align-items: center;
     color:grey;
 }
 .grey-background {
-    
-    background-color: grey;
-    margin: -13px;
-    padding-bottom: -1px;
-    margin-top: -2px;
+    background-color:lightgrey;
+
+    margin: 10% -3.1% -5.5% -3.1%;
 }
 
 .captcha {
-    text-align: center;
+    align-items: center;
     font-size: 11px;
-    
-    position: relative;
-    bottom: 0;
-    width: 38em;
-    padding: 20px 0;
-    margin-left: -12px;
+padding: 6% 4% 6% 11%;
+
 }
 
 
