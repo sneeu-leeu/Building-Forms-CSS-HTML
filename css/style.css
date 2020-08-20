@@ -1,169 +1,173 @@
 
-body{
-    background-color:lightgray;
-    z-index: 1;
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+body {
+  background-color: lightgray;
+  z-index: 1;
+  font-family: "AvenirNext", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .sign-in {
-    display: flex;    
-    justify-content: center;
-    width: 100%;
-    padding-left: 70%;
-    font-size: 15px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-left: 70%;
+  font-size: 15px;
 }
 
 .logo-icon {
-    padding-left: 1.2rem;
-    width: 25%; 
+  padding-left: 1.2rem;
+  width: 25%;
 }
+
 .signInBtn {
-    height: 2.5em;
-    background-color: rgb(10, 116, 238);
-    border-radius: 8%;
-    border:1px black solid;
-    width: 100px;   
+  height: 2.5em;
+  background-color: rgb(10, 116, 238);
+  border-radius: 8%;
+  border: 1px black solid;
+  width: 100px;
 }
+
 .btn-text {
-    color: white;
+  color: white;
 }
 
 .logo-top {
-    padding-left: 38%;
-    margin-bottom: 0;
-    
+  padding-left: 38%;
+  margin-bottom: 0;
 }
+
 .logo-top img {
-    width : 100px;
-    height: 50px;
-    
+  width: 100px;
+  height: 50px;
 }
-.logo-images{
-    padding-left: 10%;
-  
+
+.logo-images {
+  padding-left: 10%;
 }
-.logo-bottom-allthree{
-    width:70%;
-    display:flex;
-    flex-direction: row;
-    margin-top:0;
+
+.logo-bottom-allthree {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
 }
-.three-logos{
-    margin-left:38%;
-    display: flex;
+
+.three-logos {
+  margin-left: 38%;
+  display: flex;
 }
+
 .navb,
 .Logo1,
 .Logo2,
-.Logo3
-{
-    display: flex;
+.Logo3 {
+  display: flex;
 }
-.three-logos img{
-width: 50px ;
-height:25px;
-align-items: center;
 
+.three-logos img {
+  width: 50px;
+  height: 25px;
+  align-items: center;
 }
-.logo-text{
-    margin-top:2px;
+
+.logo-text {
+  margin-top: 2px;
 }
-fieldset{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    width:30%;
-    margin-left: 35%;
-    background-color:white; 
-    margin-bottom: 3em;
-    font-family: Avenir;
-    position: relative;
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  margin-left: 35%;
+  background-color: white;
+  margin-bottom: 3em;
+  position: relative;
 }
 
 input {
-    border : 1px solid #C1C5C8; 
-    
-    padding: 8px ;
-    border-radius: 1px;
-    font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 15px 8px 45px 8px;
-    display: flex;
-    
+  border: 1px solid #c1c5c8;
+  padding: 8px;
+  border-radius: 1px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 15px 8px 45px 8px;
+  display: flex;
 }
 
 input:active,
 input:focus {
+  border-color: grey;
+  box-shadow: 0 0 20px rgba(8, 129, 221, 0.74);
+}
 
-    border-color: grey;
-    box-shadow:  0 0 20px rgba(8, 129, 221, 0.74);
+footer {
+  flex-direction: column;
+
+  /* font-family:  Arial sans-serif; */
+  font-size: smaller;
 }
-footer{
-    flex-direction:column;
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial sans-serif;
-    font-size: smaller;
+
+footer ul {
+  align-items: center;
+  padding-left: 40em;
 }
-footer ul{
-    align-items: center;
-    padding-left: 40em;
-}
+
 form button {
-    width: 100%;
-    background-color: rgb(10, 116, 238);
-    color: white;
-    border: 0 white;
-    border-radius: 5px;
-    padding-top: 1.2em;
-    padding-bottom: 1.2em;
-    margin-top: 0.1em;
-    margin-bottom: 2%;
-    
+  width: 100%;
+  background-color: rgb(10, 116, 238);
+  color: white;
+  border: 0 white;
+  border-radius: 5px;
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+  margin-top: 0.1em;
+  margin-bottom: 2%;
 }
 
-.footer-element li{
-    display: inline;
-    align-items: center;
-    padding-left: 0.7em;
+.footer-element li {
+  display: inline;
+  align-items: center;
+  padding-left: 0.7em;
 }
+
 .footer-paragraph,
-.subHeading{
-    text-align: center;
-}
-.formHeading {
-    margin-left: 12%;
+.subHeading {
+  text-align: center;
 }
 
+.formHeading {
+  margin-left: 12%;
+}
 
 .email,
 .phone,
-.password{
-    display: flex;
-    flex-direction: column;
+.password {
+  display: flex;
+  flex-direction: column;
 }
-
 
 label {
-    margin-left: 8px ;
+  margin-left: 8px;
 }
-.agreements{
-    padding-top: 4%;
-align-items: center;
-    text-align:center;
-    font-style: italic;
-    color:grey;
+
+.agreements {
+  padding-top: 4%;
+  align-items: center;
+  text-align: center;
+  font-style: italic;
+  color: grey;
 }
+
 .grey-background {
-    background-color:lightgrey;
-    margin: 10% -3.1% -5.5% -3.1%;
+  background-color: lightgrey;
+  margin: 10% -3.1% -5.5% -3.1%;
 }
 
 .captcha {
-    align-items: center;
-    font-size: 11px;
-padding: 6% 4% 6% 11%;
-
+  align-items: center;
+  font-size: 11px;
+  padding: 6% 4% 6% 11%;
 }
+
 .blue {
-    color: rgb(10, 116, 238);
+  color: rgb(10, 116, 238);
 }
-
-
