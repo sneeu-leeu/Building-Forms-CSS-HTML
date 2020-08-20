@@ -1,37 +1,38 @@
-*{
-    box-sizing:border-box;
-}
 
 body{
     background-color:lightgray;
     z-index: 1;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .navb {
     display: flex;
 }
 .sign-in {
-    display: flex;
-    padding-left: 57em;
+    display: flex;    
     justify-content: center;
     width: 100%;
+    padding-left: 70%;
+    font-size: 15px;
 }
+
 .logo-icon {
     padding-left: 1.2rem;
     width: 25%;
     
+    
 }
 .signInBtn {
     height: 2.5em;
-    background-color: blue;
-    border-radius: 10%; 
-    width: 100%;   
+    background-color: rgb(10, 116, 238);
+    border-radius: 5%;
+    width: 100px;   
 }
 .btn-text {
     color: white;
 }
 
 .logo-top {
-    padding-left: 35%;
+    padding-left: 38%;
     margin-bottom: 0;
     
 }
@@ -52,7 +53,7 @@ body{
     margin-top:0;
 }
 .three-logos{
-    margin-left:35%;
+    margin-left:38%;
     display: flex;
 }
 .Logo1,
@@ -119,15 +120,6 @@ form button {
     
 }
 
-
-.ul-footer {
-    display:flex;
-    flex-direction: row;
-    list-style: none;
-    text-align: center; 
-    padding-left: 45%; 
-}
-
 .footer-element li{
     display: inline;
     align-items: center;
@@ -172,6 +164,9 @@ align-items: center;
     font-size: 11px;
 padding: 6% 4% 6% 11%;
 
+}
+.blue {
+    color: rgb(10, 116, 238);
 }
 
 
