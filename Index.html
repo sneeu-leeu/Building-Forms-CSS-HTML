@@ -17,7 +17,7 @@
         <nav class="navb">
             <div class="sign-in">
                 <div class="text">
-                <small>Already have an Intuit account?</small> </br>
+                <small>Already have an Intuit account?</small> <br/>
                 <small class="blue">I forgot my User ID or Password</small>
             </div>
             <div class="logo-icon">
@@ -29,24 +29,26 @@
         </nav>
     </header>
 <main>
-    <section class="logo-images">
+    
+    <div class="logo-images">
         <figure class="logo-top">
-            <img src="images/intuit-logo.png" href="Intuit Logo" class="intuit-logo">
+            <img src="images/intuit-logo.png" alt="intuit" class="intuit-logo">
         </figure>
         <figure class="logo-bottom-allthree">
                 <div class="three-logos">
                     <div class="Logo1">
-                        <img src="images/blue-icon.png" href="Mint" id="bottom-logo"> <p class="logo-text">mint</p>
+                        <img src="images/blue-icon.png" alt="bottom-logo"> <p class="logo-text">mint</p>
                     </div>
                     <div class="Logo2">
-                        <img src="images/green-icon.png" href="quickbooks" id="bottom-logo"><p class="logo-text">quickbooks</p>
+                        <img src="images/green-icon.png" alt="bottom-logo"><p class="logo-text">quickbooks</p>
                     </div>
                     <div class="Logo3">
-                        <img src="images/red-icon.png" href="TurboTax" id="bottom-logo"><p class="logo-text">TurboTax</p>
+                        <img src="images/red-icon.png" alt="bottom-logo"><p class="logo-text">TurboTax</p>
                     </div>
                 </div>
         </figure>
-    </section>
+    </div>
+    
 
     <fieldset class="full-form">
         <form class="form-elements">
@@ -55,12 +57,12 @@
             </div>
             <div class="subHeading">
                 <small>One account for everything Intuit, including Mint.</small>
-            </br>
-                <small class="blue" style="font-size: smaller; ">learn more</small>
-            </br>
+            <br/>
+                <small class="learn">learn more</small>
+            <br/>
                 <small>Already have an account?</small><small class="blue"> Sign In</small>
             </div>
-            </br>
+            <br/>
             <div class="inputs" >
                 <div class="email">
                     <label for="email-input">Email address</label>
@@ -68,13 +70,13 @@
                 </div>
                 <div class="phone">
                     <label for="phone-input">Phone (recommended)</label>                                    
-                    <input type="tel" id="phone-input" name="phone" role="alert"> 
+                    <input type="tel" id="phone-input" name="phone" required> 
         
                 </div>
                
                 <div class="password" >
                     <label for="password-input">Password</label>
-                    <input type="password" id="password-input"class="fas fa-lock" name="password" required>
+                    <input type="password" id="password-input" class="fas fa-lock" name="password" required>
                     
                 </div>  
                 <div class="subBtn">
@@ -97,15 +99,15 @@
             </div>
         </form>
     </fieldset>
-    </section>  
+    
 </main>
   
 
 <footer class="footer-element">
     <ul class="ul-footer">
-        <li>Legal</li>
-        <li>Privacy</li>
-        <li>Security</li>
+        <li><a href="#legal">Legal</a></li>
+        <li><a href="#privacy">Privacy</a>></li>
+        <li><a href="#security">Security</a></li>
     </ul>
     <p class="footer-paragraph">
         Legal Privacy Security

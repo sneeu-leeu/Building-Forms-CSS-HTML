@@ -168,6 +168,11 @@ label {
   padding: 6% 4% 6% 11%;
 }
 
-.blue {
+.blue,
+.learn {
   color: rgb(10, 116, 238);
+}
+
+.learn {
+  font-size: smaller;
 }
