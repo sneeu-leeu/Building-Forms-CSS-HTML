@@ -59,7 +59,8 @@ body{
 }
 .Logo1,
 .Logo2,
-.Logo3 {
+.Logo3
+{
     display: flex;
 }
 .three-logos img{
@@ -78,7 +79,7 @@ fieldset{
     width:30%;
     margin-left: 35%;
     background-color:white; 
-    margin-bottom: 10em;
+    margin-bottom: 3em;
     font-family: Avenir;
     position: relative;
 }
@@ -101,12 +102,13 @@ input:focus {
     box-shadow:  0 0 20px rgba(8, 129, 221, 0.74);
 }
 footer{
-    
-
-    
     flex-direction:column;
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial sans-serif;
     font-size: smaller;
+}
+footer ul{
+    align-items: center;
+    padding-left: 40em;
 }
 form button {
     width: 100%;
@@ -123,7 +125,6 @@ form button {
 
 .footer-element li{
     display: inline;
-    align-items: center;
     align-items: center;
     padding-left: 0.7em;
 }
