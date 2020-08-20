@@ -24,7 +24,8 @@ body{
 .signInBtn {
     height: 2.5em;
     background-color: rgb(10, 116, 238);
-    border-radius: 5%;
+    border-radius: 8%;
+    border:1px black solid;
     width: 100px;   
 }
 .btn-text {
