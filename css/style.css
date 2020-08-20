@@ -119,15 +119,14 @@ form button {
     align-items: center;
     padding-left: 0.7em;
 }
-.footer-paragraph{
+.footer-paragraph,
+.subHeading{
     text-align: center;
 }
 .formHeading {
     margin-left: 12%;
 }
-.subHeading {
-    text-align: center;
-}
+
 
 .email,
 .phone,
