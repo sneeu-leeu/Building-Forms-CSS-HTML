@@ -68,19 +68,25 @@ fieldset{
 
 input {
     border : 1px solid #C1C5C8; 
-
+    
     padding: 8px ;
     border-radius: 1px;
     font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 15px 8px 45px 8px;
+    display: flex;
+    
 }
 
 input:active,
 input:focus {
+
     border-color: grey;
     box-shadow:  0 0 20px rgba(8, 129, 221, 0.74);
 }
 footer{
+    
+
+    
     flex-direction:column;
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial sans-serif;
     font-size: smaller;
@@ -91,7 +97,8 @@ form button {
     color: white;
     border: 0 white;
     border-radius: 5px;
-    padding: 1.2em 0;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
     margin-top: 0.1em;
     margin-bottom: 2%;
     
@@ -109,6 +116,7 @@ form button {
 .footer-element li{
     display: inline;
     align-items: center;
+    align-items: center;
     padding-left: 0.7em;
 }
 .footer-paragraph{
@@ -120,9 +128,10 @@ form button {
 .subHeading {
     text-align: center;
 }
+
 .email,
 .phone,
-.password {
+.password{
     display: flex;
     flex-direction: column;
 }
@@ -140,7 +149,6 @@ align-items: center;
 }
 .grey-background {
     background-color:lightgrey;
-
     margin: 10% -3.1% -5.5% -3.1%;
 }
 

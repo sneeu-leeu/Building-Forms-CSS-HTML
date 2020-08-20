@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="Style.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>HTML-CSS-forms</title>
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -28,16 +28,16 @@
             </div>
         </nav>
     </header>
-
+<main>
     <section class="logo-images">
         <figure class="logo-top">
-            <img src="intuit-logo.png" href="Intuit Logo" class="intuit-logo">
+            <img src="images/intuit-logo.png" href="Intuit Logo" class="intuit-logo">
         </figure>
         <figure class="logo-bottom-allthree">
                 <div class="three-logos">
-                    <img src="blue-icon.png" href="Mint" id="bottom-logo"> Mint
-                    <img src="green-icon.png" href="quickbooks" id="bottom-logo">Quickbooks
-                    <img src="red-icon.png" href="TurboTax" id="bottom-logo">TurboTax
+                    <img src="images/blue-icon.png" href="Mint" id="bottom-logo"> Mint
+                    <img src="images/green-icon.png" href="quickbooks" id="bottom-logo">Quickbooks
+                    <img src="images/red-icon.png" href="TurboTax" id="bottom-logo">TurboTax
                 </div>
         </figure>
     </section>
@@ -68,7 +68,8 @@
                
                 <div class="password" >
                     <label for="password-input">Password</label>
-                    <input type="password" id="password-input" name="password" required>
+                    <input type="password" id="password-input"class="fas fa-lock" name="password" required>
+                    
                 </div>  
                 <div class="subBtn">
                     <button type="submit"><i class="fas fa-lock"></i> Create Account</button>  
@@ -88,12 +89,11 @@
                     <a href="#terms">Terms of Use</a>.
                 </p>
             </div>
-            
- 
         </form>
     </fieldset>
+    </section>  
+</main>
   
-</body>
 
 <footer class="footer-element">
     <ul class="ul-footer">
@@ -108,4 +108,5 @@
         Terms and conditions, features, support, pricing, and service options 
         subject to change without notice.</p>
 </footer>
+</body>
 </html>
