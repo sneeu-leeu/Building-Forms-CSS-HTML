@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
     <head>
         <meta charset="UTF-8">
@@ -14,26 +14,12 @@
 <body>
 
     <header>
-        <nav class="navb">
-            <div class="sign-in">
-                <div class="text">
-                <small>Already have an Intuit account?</small> <br/>
-                <small class="blue">I forgot my User ID or Password</small>
-            </div>
-            <div class="logo-icon">
-                <button type="submit" class="signInBtn">
-                    <i class="fas fa-lock" style="color: white"></i> <strong class="btn-text">Sign In</strong>
-                </button>
-            </div>
-            </div>
-        </nav>
+                  <input type="button" class="sign" value="Sign In">
+                 <input type="button" class="forget" value="Forgot ID/Password">
     </header>
 <main>
     
-    <div class="logo-images">
-        <figure class="logo-top">
-            <img src="images/intuit-logo.png" alt="intuit" class="intuit-logo">
-        </figure>
+    <img src="images/intuit-logo.png" alt="intuit" class="logo">
         <figure class="logo-bottom-allthree">
                 <div class="three-logos">
                     <div class="Logo1">
@@ -47,74 +33,34 @@
                     </div>
                 </div>
         </figure>
-    </div>
-    
-
-    <fieldset class="full-form">
-        <form class="form-elements">
-            <div class="formHeading">
-                <h2>Create an Intuit account</h2>
-            </div>
-            <div class="subHeading">
-                <small>One account for everything Intuit, including Mint.</small>
-            <br/>
-                <small class="learn">learn more</small>
-            <br/>
-                <small>Already have an account?</small><small class="blue"> Sign In</small>
-            </div>
-            <br/>
-            <div class="inputs" >
-                <div class="email">
-                    <label for="email-input">Email address</label>
-                    <input type="email" id="email-input" name="email" required>
-                </div>
-                <div class="phone">
-                    <label for="phone-input">Phone (recommended)</label>                                    
-                    <input type="tel" id="phone-input" name="phone" required> 
-        
-                </div>
-               
-                <div class="password" >
-                    <label for="password-input">Password</label>
-                    <input type="password" id="password-input" class="fas fa-lock" name="password" required>
-                    
-                </div>  
-                <div class="subBtn">
-                    <button type="submit"><i class="fas fa-lock"></i> Create Account</button>  
-                </div>
-            </div>
-            
-            <div class="sign-up-footer">
-                <p class="agreements">By clicking Create account, you agree to our<br/>
-                    <a class="blue" href="#terms">Terms</a> and have read and acknowledge our 
-                    <a class="blue" href="#privacy">Privacy<br/>Statement</a>.
-                </p>
-            </div>
-    
-            <div class="grey-background">
-                <p class="captcha">Invisible reCAPTCHA by Google 
-                    <a class="blue"  href="#privacy-policy">Privacy Policy</a> and
-                    <a class="blue"  href="#terms">Terms of Use</a>.
-                </p>
-            </div>
-        </form>
-    </fieldset>
-    
+   
+    <form class="form">
+        <h2 class="description">Create an Intuit account</h2>
+        <p class="description">One account for everything Intuit, including Mint.</p>
+        <p class="learn">Learn more</p>
+        <p class="info">Email address:</p>
+        <input type="email" class="data" name="email" placeholder="enter your email" required>
+         <p class="info">Phone (recommended):</p>
+        <input type="number" class="data" name="phone" placeholder="enter your phone number" required>
+         <p class="info">Password:</p>
+        <input type="password" class="data" name="password" placeholder="enter your password" required>
+        <input type="button" value="Create account" class="create">
+        <p class="already">Already have an account?<a href=" ">Sign In</a></p>
+    </form>
 </main>
   
-
-<footer class="footer-element">
-    <ul class="ul-footer">
-        <li><a href="#legal">Legal</a></li>
-        <li><a href="#privacy">Privacy</a>></li>
-        <li><a href="#security">Security</a></li>
+   <footer>
+    <ul class="info1">
+        <li ><a href="#legal" class="footer1">Legal</a>
+            <a href="#privacy" class="footer1" >Privacy</a>
+            <a href="#security" class="footer1">Security</a></li>
     </ul>
-    <p class="footer-paragraph">
+    <h3 class="footer-paragraph">
         Legal Privacy Security
         © 2020 Intuit, Inc. All rights reserved. Intuit,
         QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br/>
         Terms and conditions, features, support, pricing, and service options 
-        subject to change without notice.</p>
+        subject to change without notice.</h3>
 </footer>
 </body>
 </html>
